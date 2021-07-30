@@ -63,3 +63,7 @@ def completed_list(request):
     tasks = Task.objects.filter(done=True)
     return render(request, 'tasks/completed.html',
                   context={'tasks':tasks})
+
+
+def test():
+    pass
