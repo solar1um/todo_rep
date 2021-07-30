@@ -4,6 +4,9 @@ from .models import Task
 from django.db.models import Q
 from django.core.paginator import Paginator
 
+def register():
+    pass
+
 
 def task_create(request):
     if request.method == 'POST':
