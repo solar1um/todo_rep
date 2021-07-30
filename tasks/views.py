@@ -4,6 +4,9 @@ from .models import Task
 from django.db.models import Q
 from django.core.paginator import Paginator
 
+def register():
+    pass
+
 
 def task_create(request):
     if request.method == 'POST':
@@ -63,7 +66,10 @@ def completed_list(request):
     tasks = Task.objects.filter(done=True)
     return render(request, 'tasks/completed.html',
                   context={'tasks':tasks})
+<<<<<<< HEAD
 
 
 def test():
     pass
+=======
+>>>>>>> 63599cfc1fb9f3ee1683bcf7d2ff21a06635f05f
