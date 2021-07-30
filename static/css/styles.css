@@ -1,0 +1,23 @@
+#edit {
+    text-decoration: none;
+    color: green;
+}
+
+#edit:hover {
+    opacity: 0.5;
+    color: green;
+}
+
+#delete {
+    text-decoration: none;
+    color: red;
+}
+
+#delete:hover {
+    opacity: 0.5;
+    color: red;
+}
+
+.page-links{
+text-decoration: none;
+}
